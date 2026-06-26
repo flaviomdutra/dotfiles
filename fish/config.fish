@@ -15,5 +15,5 @@ export FZF_CTRL_T_OPTS="
   --bind 'ctrl-/:change-preview-window(down|hidden|)'
 "
 
-set PATH "$HOME/go/bin:$PATH"
-set PATH "$PATH:$(go env GOPATH)/bin"
+# set PATH "$HOME/go/bin:$PATH"
+# set PATH "$PATH:$(go env GOPATH)/bin"
