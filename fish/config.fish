@@ -5,6 +5,7 @@ alias grep="rg"
 
 set PATH "/opt/homebrew/bin:$PATH"
 set PATH "$HOME/.local/bin:$PATH"
+set PATH "$HOME/.docker/bin:$PATH"
 
 set -Ux EDITOR nvim
 
