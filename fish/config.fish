@@ -1,5 +1,7 @@
 alias vim="nvim"
 alias cd="z"
+alias cat="bat"
+alias grep="rg"
 
 set PATH "/opt/homebrew/bin:$PATH"
 set PATH "$HOME/.local/bin:$PATH"
