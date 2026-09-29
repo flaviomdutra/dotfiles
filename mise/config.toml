@@ -2,3 +2,4 @@
 gradle = "latest"
 java = "latest"
 node = "latest"
+python = "latest"
