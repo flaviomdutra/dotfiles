@@ -1,4 +1,5 @@
 [tools]
+go = "latest"
 gradle = "latest"
 java = "latest"
 node = "latest"
