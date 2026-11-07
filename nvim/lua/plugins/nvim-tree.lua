@@ -47,12 +47,38 @@ return {
         api.map.on_attach.default(bufnr)
 
         local opts = { buffer = bufnr, noremap = true, silent = true, nowait = true }
-        vim.keymap.set("n", "h", api.node.navigate.parent_close, vim.tbl_extend("force", opts, {
-          desc = "Close directory or go to parent",
-        }))
-        vim.keymap.set("n", "l", api.node.open.edit, vim.tbl_extend("force", opts, {
-          desc = "Open file or directory",
-        }))
+        vim.keymap.set(
+          "n",
+          "h",
+          api.node.navigate.parent_close,
+          vim.tbl_extend("force", opts, {
+            desc = "Close directory or go to parent",
+          })
+        )
+        vim.keymap.set(
+          "n",
+          "l",
+          api.node.open.edit,
+          vim.tbl_extend("force", opts, {
+            desc = "Open file or directory",
+          })
+        )
+        vim.keymap.set(
+          "n",
+          "v",
+          api.node.open.vertical_no_picker,
+          vim.tbl_extend("force", opts, {
+            desc = "Open file in vertical split",
+          })
+        )
+        vim.keymap.set(
+          "n",
+          "s",
+          api.node.open.horizontal_no_picker,
+          vim.tbl_extend("force", opts, {
+            desc = "Open file in horizontal split",
+          })
+        )
       end,
     },
   },
