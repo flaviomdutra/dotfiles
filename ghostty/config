@@ -8,3 +8,8 @@ background-blur-radius = 20
 background = #031219
 
 macos-option-as-alt = true
+
+keybind = cmd+alt+h=goto_split:left
+keybind = cmd+alt+j=goto_split:down
+keybind = cmd+alt+k=goto_split:up
+keybind = cmd+alt+l=goto_split:right
